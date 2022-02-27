@@ -1,0 +1,530 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin:0;padding:0;}table {border-collapse:collapse;border-spacing:0;}fieldset, img {	border:0;}address, caption, cite, code, strong, dfn, em, th, var {font-style:normal;font-weight:normal;}ol, ul {list-style:none;} caption, th {text-align:left;}h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}q:before, q:after {content:'';}abbr, acronym {border:0;}input:focus{outline:0px;}
+
+img, figure{margin:0;padding:0;text-decoration:none;border:none;float:left;}
+a{text-decoration:none;color:#FFF;}
+.no_mostrar{display:none;}
+.absoluta{position:absolute;}
+.fija{position:fixed;}
+
+#sigueloFFFF{
+	display:none;
+}
+#sigueloDDDD{
+	display:none;	
+}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:62.5%;
+	overflow:auto;
+	background:#000 url(../imagenes/fondo1.png);
+}
+
+#contenedor{
+	width:900px;
+	height:auto;
+	margin:0px auto 0px auto;
+	padding:0;
+}
+#contenido{
+	width:900px;
+	height:auto;
+	margin:0px 0px 10px 0px;
+	padding:0;
+	float:left;
+	background: url(../imagenes/f2.png);
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-radius:0px 0px 10px 10px;
+	border-radius:0px 0px 10px 10px;
+
+}
+
+#header{
+width:900px;
+height:80px;
+margin:10px 0px 0px 0px;
+padding:0;
+float:left;
+
+}
+
+#header h2{
+	width:800px;
+	height:70px;
+	margin:0px 0px 0px 0px;
+	padding:10px 50px 0px 50px;
+	float:left;
+	color:#000;
+	font-size:1.8em;
+	font-weight:600;
+	line-height:30px;
+	background:#FFF;
+}
+
+#conte_form{
+	width:800px;
+	height:auto;
+	margin:0px 50px 0px 50px;
+	padding:0;
+	float:left;
+}
+
+#formu{
+	width:800px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+}
+/* ---------------------------------------------------------- FORMULARIO 1111111111111111 ----------------------*/
+#form1{
+	width:800px;
+	height:auto;
+	margin:0;
+	padding:10px 0px 0px 0px;
+	float:left;
+}
+
+#formulario1{
+	width:800px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;	
+}
+
+#datos_gene{
+	width:790px;
+	height:auto;
+	margin:0px 0px 10px 0px;
+	padding:10px 5px 5px 5px;
+	float:left;	
+	background:#999 url(../imagenes/f4.png);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;	
+}
+#datos_espe{
+	width:790px;
+	height:auto;
+	margin:0px 0px 10px 0px;
+	padding:10px 5px 5px 5px;
+	float:left;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background:#999 url(../imagenes/f4.png);		
+}
+
+#form1 h2{
+	font-size:1.5em;
+	font-weight:600;
+	margin:10px 0px 10px 0px;
+	padding:0px 0px 0px 20px;
+	color:#FFF;	
+}
+
+.preg_form1{
+	width:800px;
+	height:30px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+#form1 label{
+	font-size:1.3em;
+	margin:0;
+	padding:0px 0px 0px 10px;
+}
+
+#form1 select{
+	height:20px;
+	font-size:1.2em;
+	float:right;
+	padding:0;
+	margin:0px 10px 0px 0px;
+	border:1px #FFF solid;
+}
+
+#form1 option{
+	font-size:1.2em;
+	float:right;
+}
+
+
+/* --------------------------------------------------------- FORMULARIO 222222222222222 ----------------------*/
+
+#form2{
+	width:800px;
+	height:auto;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	float:left;
+}
+
+#formulario2{
+	width:800px;
+	height:auto;
+	float:left;
+	display:block;  /*------------------------- display none -----------------------------*/
+}
+
+#titu_form2{
+	width:800px;
+	height:40px;
+	margin:20px 0px 0px 0px;
+	padding:0;
+	float:left;
+}
+
+#titulo_formu_2{
+	width:550px;
+	height:40px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 9px;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#FFF;
+	float:left;
+	line-height:40px;
+}
+#titu_form2 ul{
+	width:240px;
+	height:40px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	float:left;
+	border-top:1px #000 solid;
+	border-right:1px #000 solid;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+	background:#FFF url(../imagenes/f4.png);
+}
+
+#titu_form2 ul li{
+	width:59px;
+	height:30px;
+	margin:0;
+	padding:10px 0px 0px 0px;
+	float:left;
+	text-align:center;
+	font-size:0.9em;
+	border-left:1px #000 solid;
+	-moz-border-radius:10px 0px 0px 0px;
+	-webkit-border-radius:10px 0px 0px 0px;
+	border-radius:10px 0px 0px 0px;
+	color:#000;
+}
+
+
+
+/*PREGUNTAS FORMULARIO 22222222222222222*/
+
+#preg_form2a{
+	width:800px;
+	height:25px;
+	margin:10px 0px 0px 0px;
+	padding:0;
+	float:left;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:none;
+	background:#999 url(../imagenes/f4.png);
+}
+#preg_form2a label{
+	font-size:1.4em;
+	line-height:25px;
+	margin:0;
+	padding:0px 0px 0px 10px;
+}
+
+#preg_form2a select{
+	font-size:1.3em;
+	margin:2px 10px 0px 0px;
+	float:right;
+}
+
+#preg_form2a option{
+	font-size:1.3em;
+	float:right;
+}
+
+#preg_form2{
+	width:558px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-top:1px #000 solid;
+	border-left:1px #000 solid;
+	-moz-border-radius:10px 0px 0px 10px;
+	-webkit-border-radius:10px 0px 0px 10px;
+	border-radius:10px 0px 0px 10px;
+	background:#FFF url(../imagenes/f4.png);
+}
+
+#preg_form2 ul{
+	width:558px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-right:1px #333 dashed;
+}
+
+#preg_form2 ul li{
+	width:548px;
+	height:28px;
+	margin:0;
+	padding:0px 10px 0px 0px;
+	float:left;
+	line-height:28px;
+	text-align:right;
+	font-size:1em;
+	border-bottom:2px #000 solid;
+	-moz-border-radius:10px 0px 0px 10px;
+	-webkit-border-radius:10px 0px 0px 10px;
+	border-radius:10px 0px 0px 10px;
+}
+
+/* RESPUESTAS FORMULARIO 2222222222222*/
+
+#resp_form2{
+	width:240px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-top:1px #000 solid;
+	background:#FFF url(../imagenes/f3.png);
+}
+
+#resp_form2 .radio2{
+	width:240px;
+	height:28px;
+	margin:0;
+	padding:0;
+	float:left;
+	border-bottom:2px #666 solid;
+}
+
+.radio2 .rad{
+	width:60px;
+	height:28px;
+	margin:0;
+	padding:0;
+	float:left;	
+}
+
+
+/* ---------------------------------------------------------- FORMULARIO 333333333333333 ----------------------*/
+
+#form3{
+	width:800px;
+	height:auto;
+	margin:0;
+	padding:0px 0px 20px 0px;
+	float:left;
+}
+
+#formulario3{	
+	width:800px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	display:block;  /*------------------------- display none -----------------------------*/	
+}
+
+#titulo_formu_3{
+	width:750px;
+	height:40px;
+	margin:20px 0px 0px 0px;
+	padding:0px 25px 0px 25px;
+	font-size:1.5em;
+	color:#FFF;
+	font-weight:600;
+	float:left;
+	line-height:25px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#titu_form3{
+	width:800px;
+	height:40px;
+	margin:0px 0px 0px 0px;
+	padding:0;
+	float:left;	
+}
+
+#titu_form3 ul{
+	width:420px;
+	height:40px;
+	margin:0px 0px 0px 379px;
+	padding:0px;
+	float:left;
+	border-top:1px #000 solid;
+	border-right:1px #000 solid;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+	background:#FFF url(../imagenes/f4.png);
+}
+
+#titu_form3 ul li{
+	width:59px;
+	height:30px;
+	margin:0;
+	padding:10px 0px 0px 0px;
+	float:left;
+	text-align:center;
+	font-size:0.9em;
+	border-left:1px #000 solid;
+	-moz-border-radius:10px 0px 0px 0px;
+	-webkit-border-radius:10px 0px 0px 0px;
+	border-radius:10px 0px 0px 0px;
+}
+
+/*  PREGUNTAS FORMULARIO 3*/
+
+#preg_form3{
+	width:378px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-top:1px #000 solid;
+	border-left:1px #000 solid;
+	-moz-border-radius:10px 0px 0px 10px;
+	-webkit-border-radius:10px 0px 0px 10px;
+	border-radius:10px 0px 0px 10px;
+	background:#FFF url(../imagenes/f4.png);
+}
+
+#preg_form3 ul{
+	width:378px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-right:1px #333 dashed;
+}
+
+#preg_form3 ul li{
+	width:368px;
+	height:38px;
+	margin:0;
+	padding:0px 10px 0px 0px;
+	float:left;
+	line-height:39px;
+	text-align:right;
+	font-size:1.2em;
+	border-bottom:2px #000 solid;
+	-moz-border-radius:10px 0px 0px 10px;
+	-webkit-border-radius:10px 0px 0px 10px;
+	border-radius:10px 0px 0px 10px;
+}
+
+/* RESPUESTAS FORMULARIO 3 */
+
+#resp_form3{
+	width:420px;
+	height:auto;
+	margin:0;
+	padding:0;
+	float:left;
+	border-top:1px #000 solid;
+	background:#FFF url(../imagenes/f3.png);
+}
+
+#resp_form3 .radio1{
+	width:420px;
+	height:38px;
+	margin:0;
+	padding:0;
+	float:left;
+	line-height:38px;
+	border-bottom:2px #666 solid;
+}
+
+.radio1 .rad{
+	width:60px;
+	height:40px;
+	margin:0;
+	padding:0;
+	float:left;	
+}
+
+/*------------------------------------------------ TERMINAN LOS FORMULARIOS -----------------------------------*/
+
+#but_envio{
+	width:200px;
+	height:30px;
+	border:1px #333 solid;
+	padding:0;
+	margin:20px 0px 0px 0px;
+	font-size:2em;
+	font-weight:600;
+	float:right;
+	color:#000;
+	background:#FFF;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px #333 solid;
+	
+}
+
+#but_envio:hover{
+	color:#FFF;
+	background:#000;
+}
+
+
+input[type=radio]{
+	background:#F90;
+	color:#F90;
+	border-color:#F90;	
+}
+
+#ayudd{
+	width:900px;
+	height:80px;
+	margin:0px auto 0px auto;
+	padding:0;
+	position:absolute;
+	display:none;
+	background: url(../imagenes/f4.png);
+}
+
+#ayudd p{
+	color:#FFF;
+	font-size:1.2em;
+	margin:0px 50px 0px 50px;
+	padding:10px;
+	font-weight:600;
+	background:#000;
+}
+
+#bot_ayudd{
+	width:40px;
+	height:20px;
+	margin:0;
+	padding:0px 0px 0px 5px;
+	float:left;
+	color:#000;
+	cursor:pointer;
+	position:relative;
+	top:-80px;
+	left:0;
+	line-height:20px;
+}
